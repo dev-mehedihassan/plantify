@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+ul,ol,dl{
+    list-style-type: none
+}
+a, a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 1.4;
+}
+/* ====== Navbar Section Style Start ====== */
+/* ====== Navbar Section Style End ====== */
+
+/* ====== Banner Section Style Start ====== */
+/* ====== Banner Section Style End ====== */
+
+/* ====== Feature Section Style Start ====== */
+/* ====== Feature Section Style End ====== */
+
+/* ====== Search Section Style Start ====== */
+/* ====== Search Section Style End ====== */
+
+/* ====== Arrival Section Style Start ====== */
+/* ====== Arrival Section Style End ====== */
+
+/* ====== Sale Section Style Start ====== */
+/* ====== Sale Section Style End ====== */
+
+/* ====== Shipping Section Style Start ====== */
+/* ====== Shipping Section Style End ====== */
+
+/* ====== Footer Section Style Start ====== */
+/* ====== Footer Section Style End ====== */
