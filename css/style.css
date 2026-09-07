@@ -67,99 +67,101 @@ h1,h2,h3,h4,h5,h6,p{
 #banner {
     padding-top: 200px;
     padding-bottom: 92px;
-    background: #004D40;
+    background: #004F44;
     position: relative;
     overflow: hidden;
 }
 
 .banner_Content h1 {
-    font-family: 'DM Sans', sans-serif;
+    max-width: 433px;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 58px;
-    line-height: 1.15;
-    color: #FFFFFF;
-    letter-spacing: -0.5px;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    color: #EFF7F5;
 }
 
 .banner_Content p {
-    font-weight: 300;
+    max-width: 389px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.6;
-    color: #D1E0DD;
-    margin-top: 28px;
-    margin-bottom: 40px;
-    max-width: 440px;
+    line-height: 28px;
+    color: #EFF7F5;
+    margin: 32px 0;
 }
 
 .banner_actions {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 43px;
 }
 
 .btn_shop {
-    padding: 14px 36px;
-    background: #E8F3F1;
-    color: #004D40;
-    font-weight: 500;
-    font-size: 15px;
-    border-radius: 2px;
-    transition: all 0.3s ease;
+    padding: 19px 41px;
+    background: #EFF7F5;
+    color: #004F44;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    transition: all linear 0.3s;
 }
 
 .btn_shop:hover {
-    background: #FFFFFF;
-    color: #004D40;
+    background: transparent;
+    color: #EFF7F5;
 }
 
 .btn_explore {
-    color: #FFFFFF;
-    font-size: 15px;
+    background: transparent;
+    color: #EFF7F5;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.3px;
     display: flex;
     align-items: center;
-    gap: 10px;
-    transition: all 0.3s ease;
+    gap: 16px;
+    transition: all linear 0.3s;
 }
 
 .btn_explore:hover {
     color: #A3E0D3;
 }
 
-.dot_pattern {
+.dot_pattern img{
     position: absolute;
-    bottom: -20px;
-    left: -20px;
-    width: 140px;
-    height: 140px;
-    background-image: radial-gradient(#2F7A6E 2px, transparent 2px);
-    background-size: 14px 14px;
+    bottom: -30px;
+    left: -30px;
+    width: 115px;
+    height: 115px;
     z-index: 1;
 }
 
 .plant_card {
     position: relative;
     background: #FFFFFF;
-    border-radius: 2px;
     overflow: hidden;
     z-index: 2;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .style_short {
-    height: 250px;
+    height: 285px;
 }
 
 .style_tall {
-    height: 516px;
+    height: 586px;
 }
 
 .plant_img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
-    transition: transform 0.4s ease;
+    transition: all linear 0.3s;
 }
 
 .plant_card:hover .plant_img {
@@ -168,20 +170,20 @@ h1,h2,h3,h4,h5,h6,p{
 
 .badge_tag {
     position: absolute;
-    top: 15px;
+    top: 12px;
     left: 15px;
-    background: #004D40;
-    color: #FFFFFF;
-    font-size: 12px;
-    font-weight: 400;
-    padding: 6px 16px;
-    border-radius: 2px;
     z-index: 3;
-    letter-spacing: 0.5px;
+    background: #004F44;
+    color: #FFFFFF;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 7px 15px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
-    transition: all 0.3s ease;
+    transition: all linear 0.3s;
 }
 
 .plant_card:hover .badge_tag {
@@ -195,15 +197,13 @@ h1,h2,h3,h4,h5,h6,p{
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 25px;
     background: linear-gradient(to top, rgba(0, 50, 42, 0.95) 0%, rgba(0, 50, 42, 0.7) 60%, transparent 100%);
-    color: #FFFFFF;
     z-index: 3;
-    
+    padding: 25px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);
-    transition: all 0.4s ease;
+    transition: all linear 0.3s;
 }
 
 .plant_card:hover .card_overlay {
@@ -213,99 +213,100 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .card_overlay h3 {
-    font-size: 22px;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
-    margin-bottom: 10px;
+    font-size: 28px;
+    color: #EFF7F5;
+    margin-bottom: 16px;
 }
 
 .card_overlay p {
-    font-size: 12px;
-    line-height: 1.5;
-    color: #D0E3E0;
-    margin-bottom: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #EFF7F5;
+    margin-bottom: 18px;
     overflow: hidden;
 }
 
 .btn_readmore {
     width: 100%;
     text-align: center;
+    text-transform: uppercase;
     background: #FFFFFF;
-    color: #004D40;
-    padding: 12px 0;
+    color: #004F44;
+    padding: 17px 110px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
     font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    border-radius: 2px;
-    transition: all 0.3s ease;
+    letter-spacing: 3.2px;
+    transition: all linear 0.3s;
 }
 
 .btn_readmore:hover {
-    background: #E8F3F1;
-    color: #004D40;
+    background: #EFF7F5;
+    color: #004F44;
 }
 /* ====== Banner Section Style End ====== */
 
 /* ====== Feature Section Style Start ====== */
 #feature {
-    font-family: 'DM Sans', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 97px;
 }
 
 .feature_title {
-    font-size: 32px;
-    font-weight: 500;
-    color: #004D40;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    color: #004F44;
 }
 
 .view_all_link {
-    color: #004D40;
-    font-size: 16px;
-    text-decoration: none;
-    transition: opacity 0.3s ease;
+    color: #004F44;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    transition: all linear 0.3s;
 }
 
 .view_all_link:hover {
     opacity: 0.7;
-    color: #004D40;
-}
-
-.product_card {
-    background: #FFFFFF;
-    border-radius: 4px;
-}
-
-.product_img_box {
-    background: #EFEFEF;
-    overflow: hidden;
-    border-radius: 2px;
+    color: #004F44;
 }
 
 .product_img_box img {
     width: 100%;
-    height: 280px;
+    height: 100%;
     object-fit: cover;
 }
 
 .product_name {
-    font-size: 15px;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
-    color: #004D40;
-    margin: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    color: #004F44;
 }
 
 .product_price {
-    font-size: 15px;
-    font-weight: 500;
-    color: #004D40;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    color: #004F44;
 }
 
 .color_label {
     display: block;
-    font-size: 11px;
-    color: #A0A0A0;
-    margin-bottom: 4px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9EA9A7;
+    margin-bottom: 8px;
 }
 
 .swatches {
@@ -314,67 +315,58 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .swatch {
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     display: inline-block;
 }
 
 .color_dark {
-    background: #2F2A28; 
+    background: #39362E; 
 }
 
 .color_pink {
-    background: #E6A79C; 
+    background: #F3A195; 
 }
 
 .color_nude {
-    background: #C3907A; 
+    background: #EFEAE6; 
+}
+
+.color_brown {
+    background: #C38364; 
 }
 
 .btn_buy {
-    font-size: 12px;
-    font-weight: 500;
-    padding: 4px 16px;
-    border-radius: 2px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.btn_buy_dark {
-    background: #004D40;
-    color: #FFFFFF;
-    border: 1px solid #004D40;
-}
-
-.btn_buy_dark:hover {
-    background: #00332A;
-    color: #FFFFFF;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 18px;
+    transition: all linear 0.3s;
 }
 
 .btn_buy_outline {
     background: transparent;
-    color: #004D40;
-    border: 1px solid #004D40;
+    color: #004F44;
+    border: 1px solid #004F44;
 }
 
 .btn_buy_outline:hover {
-    background: #004D40;
+    background: #004F44;
     color: #FFFFFF;
 }
 
 .hover_arrow_btn {
     position: absolute;
     top: 50%;
-    left: 0;
+    right: 0;
     transform: translate(-50%, -50%);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: #FFFFFF;
-    color: #004D40;
+    color: #004F44;
     border: none;
     border-radius: 50%;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,7 +374,7 @@ h1,h2,h3,h4,h5,h6,p{
     z-index: 10;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease;
+    transition: all linear 0.3s;
 }
 
 .rightmost_card:hover .hover_arrow_btn {
@@ -391,15 +383,15 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .hover_arrow_btn:hover {
-    background: #004D40;
+    background: #004F44;
     color: #FFFFFF;
 }
 /* ====== Feature Section Style End ====== */
 
 /* ====== Search Section Style Start ====== */
-#search_section {
-    background: #F3FCF9;
-    font-family: 'DM Sans', sans-serif;
+#search {
+    padding: 85px 0;
+    background: #F3FFFC;
 }
 
 .search_form {
@@ -407,20 +399,18 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .btn_filter {
-    width: 48px;
-    height: 48px;
+    width: 59px;
+    height: 59px;
     background: transparent;
-    border: 1px solid #2C6E63;
-    border-radius: 2px;
-    color: #004D40;
-    font-size: 18px;
-    transition: all 0.3s ease;
+    border: 1px solid #004F44;
+    color: #004F44;
+    font-size: 22px;
+    transition: all linear 0.3s;
     cursor: pointer;
-    flex-shrink: 0;
 }
 
 .btn_filter:hover {
-    background: #004D40;
+    background: #004F44;
     color: #FFFFFF;
 }
 
@@ -429,37 +419,34 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .search_input {
-    height: 48px;
-    border: 1px solid #2C6E63;
-    border-radius: 2px;
+    height: 59px;
+    border: 1px solid #004F44;
     background: #FFFFFF;
-    padding: 0 18px;
-    font-size: 15px;
-    color: #004D40;
-    box-shadow: none !important;
+    padding: 20px 25px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: #000000;
 }
 
 .search_input::placeholder {
-    color: #4C8278;
-    font-weight: 400;
+    color: #004F44;
 }
 
 .search_input:focus {
-    border-color: #004D40;
-    background: #FFFFFF;
+    border-color: #004F44;
 }
 
 .btn_search {
-    width: 48px;
-    height: 48px;
-    background: #004D40;
-    border: 1px solid #004D40;
-    border-radius: 2px;
+    width: 59px;
+    height: 59px;
+    background: #004F44;
+    border: 1px solid #004F44;
     color: #FFFFFF;
-    font-size: 18px;
-    transition: all 0.3s ease;
+    font-size: 22px;
+    transition: all linear 0.3s;
     cursor: pointer;
-    flex-shrink: 0;
 }
 
 .btn_search:hover {
@@ -470,19 +457,20 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ====== Arrival Section Style Start ====== */
 #arrival {
-    font-family: 'DM Sans', sans-serif;
+    padding: 96px 0;
 }
 
 .arrival_title {
-    font-size: 32px;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
-    color: #004D40;
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    color: #004F44;
 }
 
 .arrival_card {
-    border-radius: 2px;
-    height: 420px;
     width: 100%;
+    height: 404px;
 }
 
 .arrival_img {
@@ -490,7 +478,7 @@ h1,h2,h3,h4,h5,h6,p{
     height: 100%;
     object-fit: cover;
     object-position: center;
-    transition: transform 0.4s ease;
+    transition: all linear 0.3s;
 }
 
 .arrival_card:hover .arrival_img {
@@ -503,11 +491,11 @@ h1,h2,h3,h4,h5,h6,p{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 50, 42, 0.75);
+    background: rgba(1, 44, 38, 0.71);
     padding: 20px;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: all linear 0.3s;
     z-index: 2;
 }
 
@@ -517,19 +505,21 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .arrival_name {
-    font-size: 28px;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
+    font-size: 29px;
+    letter-spacing: 0.3px;
     color: #FFFFFF;
     margin-bottom: 12px;
-    letter-spacing: 0.5px;
 }
 
 .btn_more_info {
-    color: #D0E3E0;
-    font-size: 14px;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
-    letter-spacing: 0.5px;
-    transition: color 0.3s ease;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    transition: all linear 0.3s;
 }
 
 .btn_more_info:hover {
