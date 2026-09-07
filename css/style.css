@@ -643,6 +643,85 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Shipping Section Style End ====== */
 
 /* ====== Footer Section Style Start ====== */
+#footer_section {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.footer_map_card {
+    border-radius: 2px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.footer_map_img {
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease;
+}
+
+.footer_map_card:hover .footer_map_img {
+    transform: scale(1.03);
+}
+
+.footer_map_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+    padding: 20px 30px;
+}
+
+.footer_map_card:hover .footer_map_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.footer_address_box {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.12);
+    max-width: 420px;
+    width: 100%;
+}
+
+.btn_directions {
+    top: 0;
+    right: 0;
+    background: #004D40;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 10px 18px;
+    letter-spacing: 0.8px;
+    transition: background 0.3s ease;
+}
+
+.btn_directions:hover {
+    background: #00332A;
+    color: #FFFFFF;
+}
+
+.address_box_title {
+    font-size: 26px;
+    font-weight: 400;
+    color: #2C3E35;
+}
+
+.address_text {
+    font-size: 14px;
+    color: #7A827E;
+    line-height: 1.6;
+}
+
+.hours_text {
+    font-size: 13px;
+    color: #555555;
+}
 /* ====== Footer Section Style End ====== */
 /* font-family: "DM Sans", sans-serif; */
 /* font-family: "Montserrat", sans-serif; */
