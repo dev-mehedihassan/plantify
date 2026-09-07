@@ -585,6 +585,61 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Sale Section Style End ====== */
 
 /* ====== Shipping Section Style Start ====== */
+#shipping_section {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.shipping_wrapper {
+    background: #EED7CE;
+    border-radius: 4px;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+}
+
+.shipping_bg_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: right bottom;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.shipping_title {
+    font-size: 38px;
+    font-weight: 400;
+    color: #9C5343;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+}
+
+.shipping_subtitle {
+    font-size: 14px;
+    color: #A66556;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.shipping_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact_item {
+    color: #9C5343;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact_item i {
+    font-size: 16px;
+    width: 20px;
+}
 /* ====== Shipping Section Style End ====== */
 
 /* ====== Footer Section Style Start ====== */
