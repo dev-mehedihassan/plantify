@@ -397,6 +397,75 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Feature Section Style End ====== */
 
 /* ====== Search Section Style Start ====== */
+#search_section {
+    background: #F3FCF9;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.search_form {
+    width: 100%;
+}
+
+.btn_filter {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: 1px solid #2C6E63;
+    border-radius: 2px;
+    color: #004D40;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.btn_filter:hover {
+    background: #004D40;
+    color: #FFFFFF;
+}
+
+.search_input_wrapper {
+    position: relative;
+}
+
+.search_input {
+    height: 48px;
+    border: 1px solid #2C6E63;
+    border-radius: 2px;
+    background: #FFFFFF;
+    padding: 0 18px;
+    font-size: 15px;
+    color: #004D40;
+    box-shadow: none !important;
+}
+
+.search_input::placeholder {
+    color: #4C8278;
+    font-weight: 400;
+}
+
+.search_input:focus {
+    border-color: #004D40;
+    background: #FFFFFF;
+}
+
+.btn_search {
+    width: 48px;
+    height: 48px;
+    background: #004D40;
+    border: 1px solid #004D40;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.btn_search:hover {
+    background: #00332A;
+    border-color: #00332A;
+}
 /* ====== Search Section Style End ====== */
 
 /* ====== Arrival Section Style Start ====== */
