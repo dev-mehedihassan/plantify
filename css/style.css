@@ -538,6 +538,50 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Arrival Section Style End ====== */
 
 /* ====== Sale Section Style Start ====== */
+#sale_section {
+    background: #F3FCF9;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.sale_title {
+    font-size: 32px;
+    font-weight: 400;
+    color: #004D40;
+}
+
+.sale_card {
+    border-radius: 2px;
+    height: 380px;
+    width: 100%;
+}
+
+.sale_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease;
+}
+
+.sale_card:hover .sale_img {
+    transform: scale(1.03);
+}
+
+.more_link {
+    color: #004D40;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.more_link:hover {
+    color: #2C6E63;
+}
+
+.more_link i {
+    font-size: 14px;
+}
 /* ====== Sale Section Style End ====== */
 
 /* ====== Shipping Section Style Start ====== */
