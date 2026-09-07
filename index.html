@@ -24,7 +24,7 @@
   </head>
   <body>
     <!-- ====== Navbar Section Start ====== -->
-     <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -32,7 +32,9 @@
               <a class="nav-link" href="#">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products <i class="fa-solid fa-sort-down"></i></a>
+              <a class="nav-link" href="#"
+                >Products <i class="fa-solid fa-sort-down"></i
+              ></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Fertilizer</a>
@@ -66,37 +68,63 @@
     <!-- ====== Navbar Section End ====== -->
 
     <!-- ====== Banner Section Start ====== -->
-     <section id="banner">
+    <section id="banner">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12">
             <div class="banner_Content">
-              <h1>
-                Happiness blooms from within
-              </h1>
+              <h1>Happiness<br />blooms from<br />within</h1>
               <p>
-                Our environment, the world in which we live and work, is a mirror of our attitudes and expectations.
+                Our environment, the world in which we live and work, is a
+                mirror of our attitudes and expectations.
               </p>
               <div class="banner_actions">
-                <a href="#" class="shop_btn">Shop Now</a>
-                <a href="#" class="banner_btn">Explore Plants <i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="#" class="btn_shop">Shop now</a>
+                <a href="#" class="btn_explore"
+                  >Explore plants <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-7">
-            <div class="banner_img_wrapper">
-              <img
-                src="./images/image1.png"
-                alt="CoreWave Banner"
-                class="img-fluid"/>
-              <img
-                src="./images/image2.png"
-                alt="CoreWave Banner"
-                class="img-fluid"/>
-              <img
-                src="./images/image3.png"
-                alt="CoreWave Banner"
-                class="img-fluid"/>
+          <div class="col-lg-7 col-md-12 mt-5 mt-lg-0 position-relative">
+            <div class="dot_pattern"></div>
+            <div class="row g-3">
+              <div class="col-6 d-flex flex-column gap-3">
+                <div class="plant_card style_short">
+                  <span class="badge_tag">New</span>
+                  <img
+                    src="./images/image1.png"
+                    alt="New Plant"
+                    class="img-fluid plant_img"
+                  />
+                </div>
+                <div class="plant_card style_short">
+                  <span class="badge_tag">Popular</span>
+                  <img
+                    src="./images/image2.png"
+                    alt="Popular Plant"
+                    class="img-fluid plant_img"
+                  />
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="plant_card style_tall position-relative">
+                  <span class="badge_tag">Featured</span>
+                  <img
+                    src="./images/image3.png"
+                    alt="Featured Plant"
+                    class="img-fluid plant_img"
+                  />
+                  <div class="card_overlay">
+                    <h3>Anthurium Flower</h3>
+                    <p>
+                      The flower of human being. It has meaningful of fact that
+                      the plant always grow whatever season and weather...
+                    </p>
+                    <a href="#" class="btn_readmore">READ MORE</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
