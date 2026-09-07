@@ -633,7 +633,8 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ====== Footer Section Style Start ====== */
 #footer_section {
-    font-family: 'DM Sans', sans-serif;
+    padding-top: 129px;
+    padding-bottom: 139px;
 }
 
 .footer_map_card {
