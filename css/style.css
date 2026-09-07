@@ -469,6 +469,72 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Search Section Style End ====== */
 
 /* ====== Arrival Section Style Start ====== */
+#arrival {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.arrival_title {
+    font-size: 32px;
+    font-weight: 400;
+    color: #004D40;
+}
+
+.arrival_card {
+    border-radius: 2px;
+    height: 420px;
+    width: 100%;
+}
+
+.arrival_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease;
+}
+
+.arrival_card:hover .arrival_img {
+    transform: scale(1.05);
+}
+
+.arrival_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 50, 42, 0.75);
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.arrival_card:hover .arrival_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.arrival_name {
+    font-size: 28px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+.btn_more_info {
+    color: #D0E3E0;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+}
+
+.btn_more_info:hover {
+    color: #FFFFFF;
+}
 /* ====== Arrival Section Style End ====== */
 
 /* ====== Sale Section Style Start ====== */
