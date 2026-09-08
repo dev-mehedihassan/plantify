@@ -587,12 +587,9 @@ h1,h2,h3,h4,h5,h6,p{
     position: relative;
     width: 100%;
     min-height: 300px;
-    overflow: hidden;
-    padding: 0 !important;
 }
 
 .shipping_bg_img {
-    display: block;
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -600,26 +597,27 @@ h1,h2,h3,h4,h5,h6,p{
 
 .shipping_content {
     position: absolute;
-    top: -255px;
+    top: -258px;
     left: 55px;
     z-index: 2;
-    width: auto;
-    height: auto;
 }
 
 .shipping_title {
-    font-size: 38px;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
-    color: #9C5343;
-    margin-bottom: 6px;
-    letter-spacing: -0.5px;
+    font-size: 44px;
+    letter-spacing: -0.3px;
+    color: #9C6955;
 }
 
 .shipping_subtitle {
-    font-size: 14px;
-    color: #A66556;
-    margin-bottom: 40px;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
+    font-size: 17px;
+    letter-spacing: -0.3px;
+    color: #9C6955;
+    margin-top: 10px;
+    margin-bottom: 62px;
 }
 
 .shipping_contacts {
@@ -629,14 +627,15 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .contact_item {
-    color: #9C5343;
-    font-size: 15px;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    color: #9C6955;
 }
 
 .contact_item i {
     font-size: 16px;
-    width: 20px;
 }
 
 /* ====== Shipping Section Style End ====== */
@@ -647,16 +646,11 @@ h1,h2,h3,h4,h5,h6,p{
     padding-bottom: 139px;
 }
 
-.footer_map_card {
-    border-radius: 2px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-}
-
 .footer_map_img {
-    height: 320px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    object-position: center;
-    transition: transform 0.4s ease;
+    transition: all linear 0.3s;
 }
 
 .footer_map_card:hover .footer_map_img {
@@ -669,12 +663,12 @@ h1,h2,h3,h4,h5,h6,p{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(10, 30, 27, 0.25);
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: all linear 0.3s;
     z-index: 2;
-    padding: 20px 30px;
+    padding: 28px;
 }
 
 .footer_map_card:hover .footer_map_overlay {
@@ -684,43 +678,56 @@ h1,h2,h3,h4,h5,h6,p{
 
 .footer_address_box {
     background: #FFFFFF;
-    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.12);
-    max-width: 420px;
-    width: 100%;
+    width: 515px;
 }
 
 .btn_directions {
     top: 0;
     right: 0;
-    background: #004D40;
-    color: #FFFFFF;
-    font-size: 11px;
-    font-weight: 500;
-    padding: 10px 18px;
-    letter-spacing: 0.8px;
-    transition: background 0.3s ease;
+    background: #004F44;
+    color: #EFF7F5;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    padding: 14px 18px;
+    transition: all linear 0.3s;
 }
 
 .btn_directions:hover {
-    background: #00332A;
+    background: #000000;
     color: #FFFFFF;
 }
 
 .address_box_title {
-    font-size: 26px;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
-    color: #2C3E35;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+    color: #0A1E1B;
 }
 
 .address_text {
-    font-size: 14px;
-    color: #7A827E;
-    line-height: 1.6;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #666666;
+    margin: 8px 0;
 }
 
 .hours_text {
-    font-size: 13px;
-    color: #555555;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #666666;
+}
+
+.hours_text span{
+    color: #000000;
 }
 /* ====== Footer Section Style End ====== */
 /* font-family: "DM Sans", sans-serif; */
