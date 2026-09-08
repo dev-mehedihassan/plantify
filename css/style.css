@@ -579,23 +579,32 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Sale Section Style End ====== */
 
 /* ====== Shipping Section Style Start ====== */
-#shipping_section {
+#shipping {
     padding-top: 97px;
 }
 
-.shipping_bg_img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.shipping_wrapper {
     position: relative;
+    width: 100%;
+    min-height: 300px;
+    overflow: hidden;
+    padding: 0 !important;
 }
 
-.shipping_content{
-    position: absolute;
-    top: 58px;
-    left: 55px;
+.shipping_bg_img {
+    display: block;
     width: 100%;
-    height: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.shipping_content {
+    position: absolute;
+    top: -255px;
+    left: 55px;
+    z-index: 2;
+    width: auto;
+    height: auto;
 }
 
 .shipping_title {
@@ -629,6 +638,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 16px;
     width: 20px;
 }
+
 /* ====== Shipping Section Style End ====== */
 
 /* ====== Footer Section Style Start ====== */
