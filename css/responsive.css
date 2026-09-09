@@ -1,0 +1,418 @@
+/* ==== Extra Small Breakpoint Start ==== */
+@media (max-width: 575.99px) {
+    /* Navbar */
+    .navbar {
+        padding: 15px 0;
+    }
+    
+    .navbar-collapse {
+        background: rgba(0, 50, 42, 0.95);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+
+    .navbar-nav {
+        gap: 15px;
+    }
+
+    /* Banner Section */
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+
+    .banner_Content h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .banner_Content p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 20px 0;
+    }
+
+    .banner_actions {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .btn_shop {
+        width: 100%;
+        text-align: center;
+        padding: 14px 28px;
+    }
+
+    .style_short {
+        height: 200px;
+    }
+
+    .style_tall {
+        height: 416px;
+    }
+
+    .card_overlay {
+        padding: 15px;
+    }
+
+    .card_overlay h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .card_overlay p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 12px;
+        overflow: hidden;
+    }
+
+    .btn_readmore {
+        padding: 10px 0;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .dot_pattern img {
+        width: 70px;
+        height: 70px;
+        bottom: -15px;
+        left: -15px;
+    }
+
+    /* Feature Section */
+    #feature {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .feature_title {
+        font-size: 28px;
+    }
+
+    .view_all_link {
+        font-size: 18px;
+    }
+
+    .product_name, .product_price {
+        font-size: 16px;
+    }
+
+    /* Search Section */
+    #search {
+        padding: 45px 0;
+    }
+
+    .search_input {
+        font-size: 14px;
+        padding: 12px 15px;
+        height: 48px;
+    }
+
+    .btn_filter, .btn_search {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    /* Arrival Section */
+    #arrival {
+        padding: 50px 0;
+    }
+
+    .arrival_title {
+        font-size: 24px;
+    }
+
+    .arrival_card {
+        height: 300px;
+    }
+
+    .arrival_name {
+        font-size: 22px;
+    }
+
+    /* Sale Section */
+    #sale {
+        padding: 50px 0;
+    }
+
+    .sale_title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .sale_card {
+        height: 320px;
+    }
+
+    /* Shipping Section */
+    #shipping {
+        padding-top: 50px;
+    }
+
+    .shipping_wrapper {
+        min-height: 380px;
+    }
+
+    .shipping_bg_img {
+        height: 380px;
+    }
+
+    .shipping_content {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 30px 20px;
+    }
+
+    .shipping_title {
+        font-size: 28px;
+    }
+
+    .shipping_subtitle {
+        margin-bottom: 25px;
+    }
+
+    /* Footer Section */
+    #footer_section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer_map_img {
+        height: 400px;
+    }
+
+    .footer_map_overlay {
+        opacity: 1;
+        visibility: visible;
+        padding: 15px;
+        background: rgba(10, 30, 27, 0.5);
+    }
+
+    .footer_address_box {
+        width: 100%;
+        padding: 20px !important;
+    }
+
+    .btn_directions {
+        position: static !important;
+        display: flex !important;
+        margin-bottom: 15px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .address_box_title {
+        font-size: 20px;
+    }
+
+    .address_text, .hours_text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+/* ==== Extra Small Breakpoint End ==== */
+
+/* ==== Small Breakpoint Start ==== */
+@media (min-width: 576px) and (max-width: 767.99px) {
+    /* Navbar */
+    .navbar-collapse {
+        background: rgba(0, 50, 42, 0.95);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+
+    /* Banner Section */
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+
+    .banner_Content h1 {
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+    .style_short {
+        height: 240px;
+    }
+
+    .style_tall {
+        height: 496px;
+    }
+
+    .card_overlay {
+        padding: 18px;
+    }
+
+    .btn_readmore {
+        padding: 12px 30px;
+    }
+
+    /* Shipping Section */
+    #shipping {
+        padding-top: 60px;
+    }
+
+    .shipping_wrapper {
+        min-height: 320px;
+    }
+
+    .shipping_bg_img {
+        height: 320px;
+    }
+
+    .shipping_content {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 40px 30px;
+    }
+
+    .shipping_title {
+        font-size: 34px;
+    }
+
+    .shipping_subtitle {
+        margin-bottom: 35px;
+    }
+
+    /* Footer Section */
+    #footer_section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer_map_overlay {
+        opacity: 1;
+        visibility: visible;
+        padding: 20px;
+    }
+
+    .footer_address_box {
+        width: 100%;
+    }
+}
+/* ==== Small Breakpoint End ==== */
+
+/* ==== Medium Breakpoint Start ==== */
+@media (min-width: 768px) and (max-width: 991.99px) {
+    /* Navbar */
+    .navbar-collapse {
+        background: rgba(0, 50, 42, 0.95);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+
+    /* Banner Section */
+    #banner {
+        padding-top: 170px;
+        padding-bottom: 75px;
+    }
+
+    .banner_Content h1 {
+        font-size: 52px;
+        line-height: 60px;
+        max-width: 100%;
+    }
+
+    .banner_Content p {
+        max-width: 100%;
+    }
+
+    .style_short {
+        height: 260px;
+    }
+
+    .style_tall {
+        height: 536px;
+    }
+
+    /* Shipping Section */
+    #shipping {
+        padding-top: 75px;
+    }
+
+    .shipping_content {
+        position: absolute;
+        top: -220px;
+        left: 30px;
+    }
+
+    .shipping_title {
+        font-size: 36px;
+    }
+
+    .shipping_subtitle {
+        margin-bottom: 40px;
+    }
+
+    /* Footer Section */
+    #footer_section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .footer_address_box {
+        width: 440px;
+    }
+}
+/* ==== Medium Breakpoint End ==== */
+
+/* ==== Large Breakpoint Start ==== */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .navbar-nav {
+        gap: 25px;
+    }
+
+    .banner_Content h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    .btn_readmore {
+        padding: 14px 40px;
+    }
+
+    .shipping_content {
+        top: -240px;
+        left: 40px;
+    }
+
+    .shipping_title {
+        font-size: 40px;
+    }
+
+    #footer_section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer_address_box {
+        width: 480px;
+    }
+}
+/* ==== Large Breakpoint End ==== */
+
+/* ==== Extra Large Breakpoint Start ==== */
+@media (min-width: 1200px) {
+    .banner_Content h1 {
+        font-size: 64px;
+        line-height: 72px;
+    }
+}
+/* ==== Extra Large Breakpoint End ==== */
+
+/* ==== Extra Extra Large Breakpoint Start ==== */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+/* ==== Extra Extra Large Breakpoint Start ==== */
